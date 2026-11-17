@@ -8,7 +8,7 @@
 # Do not rename the functions - the tests use these names.
 
 
-def two_sum(nums, target):
+def two_sum(nums, target): # Restated: Find the pair with the largest sum
     # Outline (write your plan here first):
     # Outer index (i) starts at 0
     # Inner index (j) starts at i + 1 (The element after i)
@@ -21,7 +21,7 @@ def two_sum(nums, target):
     return []
 
 
-def max_profit(prices):
+def max_profit(prices): # Restated: Find which days to buy and sell on respectively to make the most profit
     # Outline:
     # Outer index (i) starts at 0
     # Inner index (j) starts at i + j (The element after i)
@@ -37,7 +37,7 @@ def max_profit(prices):
 
 
 
-def max_subarray(nums):
+def max_subarray(nums): # Restated: Find the section of the array that if taken on its own and summed up gives the largest result
     # Outline:
     # Outer index (i) starts at 0
     # Middle index (j) starts at i + j (The element after i)
@@ -64,7 +64,7 @@ def max_subarray(nums):
 
 
 
-def is_balanced(s):   # Part 4 - stretch (optional)
+def is_balanced(s):   # Part 4 - stretch (optional), Restated: Use a list like a stack and check if it is balanced (i.e. the most recent bracket closed is the same type as the most recent bracket opened)
     # Outline:
     # Loop through the string
     # Get a list to use like a stack
