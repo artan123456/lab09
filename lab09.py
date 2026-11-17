@@ -86,10 +86,8 @@ def is_balanced(s):   # Part 4 - stretch (optional), Restated: Use a list like a
             brackets.append(character)
 
         elif character in ")}]": # If it is a closed bracket
-
             if len(s) == 1:
                 return False # First bracket is a closed bracket, cannot be balanced
-
             # Check if the closed bracket is of the right type, if so pop from "stack"
             if (bracket_types[brackets[-1]] == character): 
                 brackets.pop()
