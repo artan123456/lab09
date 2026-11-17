@@ -73,8 +73,6 @@ def is_balanced(s):   # Part 4 - stretch (optional), Restated: Use a list like a
     # If it is the same type, pop it
     # If it is a different type, break and return false
     # At the end of the loop, if the lists used like a stack is empty, return true, otherwise return false
-    # TODO: return True if every bracket in `s` is closed correctly and in the right
-    #   order. The brackets are ( ) [ ] { }. (Hint: a list used as a stack works well.)
     brackets = []
     bracket_types = { # A dictionary for the bracket types
         "{" : "}",
