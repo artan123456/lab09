@@ -109,8 +109,6 @@ def is_balanced(s):   # Part 4 - stretch (optional), Restated: Use a list like a
 
 def main():
     # Optional scratch space - try your functions here, then run: python lab09.py
-    max_subarray([-2, 1, -3, 4, -1, 2, 1, -5, 4])   # returns 6   (4 + -1 + 2 + 1)
-    print(is_balanced("()"))
     pass
 
 
